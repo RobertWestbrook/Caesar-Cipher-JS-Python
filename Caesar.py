@@ -3,7 +3,7 @@ def rot13(mess):
     Out = 'NOPQRSTUVWXYZABCDEFGHIJKLMnopqrstuvwxyzabcdefghijklm'
     rot = str.maketrans(In,Out)
     translation = mess.translate(rot)
-    print (translation)
+    # print (translation)
     return translation
 
 
